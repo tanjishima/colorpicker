@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "pickColor",
+    "description":"A color picker tool to pick color from any webpage",
+    "version": "1.0",
+    "permissions":[
+      "activeTab",
+      "scripting"
+    ],
+    
+    "action": {
+      "default_icon":"ColorPicker.jpg",
+      "default_popup":"index.html",
+      "default_tittle":"pickColor"
+      
+    }
+  }
